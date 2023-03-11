@@ -13,12 +13,19 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
 public class LeetCodeApiWrapperImpl implements LeetCodeApiWrapper {
+
+    @Value("${leetcode.problems.get.all.endpoint}")
+    private String leetCodeGetAllProblemsUrl;
+
+    @Value("${py-graphql-proxy.problems.get.latest-ac.endpoint.template}")
+    private String proxyGetLatestAcceptedUrlTemplate;
 
     private final RestTemplate restTemplate;
 
@@ -32,9 +39,10 @@ public class LeetCodeApiWrapperImpl implements LeetCodeApiWrapper {
     @SneakyThrows
     @Override
     public Map<String, Task> getAllTasks() {
-        final var url = "https://leetcode.com/api/problems/all/";
-        final GetAllProblemsPayload payload =
-            objectMapper.readValue(restTemplate.getForObject(url, String.class), GetAllProblemsPayload.class);
+        final GetAllProblemsPayload payload = objectMapper.readValue(
+            restTemplate.getForObject(leetCodeGetAllProblemsUrl, String.class),
+            GetAllProblemsPayload.class
+        );
 
         return payload.getStatStatusPairs().stream()
                       .map(PayloadMapper::fromStatStatusPairToTask)
@@ -44,7 +52,7 @@ public class LeetCodeApiWrapperImpl implements LeetCodeApiWrapper {
     @SneakyThrows
     @Override
     public List<AcceptedTask> getLatestAcceptedByUsername(String username) {
-        final var url = "http://localhost:8081/" + username;
+        final var url = String.format(proxyGetLatestAcceptedUrlTemplate, username);
         final var payload = objectMapper.readValue(restTemplate.getForObject(url, String.class),
             GetLatestAcceptedPayload.class);
 

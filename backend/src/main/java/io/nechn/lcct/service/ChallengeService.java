@@ -1,10 +1,10 @@
 package io.nechn.lcct.service;
 
-import io.nechn.lcct.model.SolvedTask;
-import java.util.List;
+import io.nechn.lcct.model.ChallengeStatusResponse;
+import java.util.Optional;
 
 public interface ChallengeService {
 
-    boolean hasTheChallengeDone(List<SolvedTask> solvedTasksList);
+    Optional<ChallengeStatusResponse> getStatusResponse(String username);
 
 }

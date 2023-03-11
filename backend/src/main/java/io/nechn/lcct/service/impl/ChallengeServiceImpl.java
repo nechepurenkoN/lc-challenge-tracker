@@ -1,8 +1,11 @@
 package io.nechn.lcct.service.impl;
 
+import io.nechn.lcct.model.ChallengeStatusResponse;
 import io.nechn.lcct.model.Difficulty;
 import io.nechn.lcct.model.SolvedTask;
 import io.nechn.lcct.service.ChallengeService;
+import io.nechn.lcct.service.LeetCodeService;
+import io.nechn.lcct.service.TimeService;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -15,6 +18,10 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class ChallengeServiceImpl implements ChallengeService {
 
+    private final LeetCodeService leetCodeService;
+
+    private final TimeService timeService;
+
     private final Function<Map<Difficulty, Long>, Boolean> decider = m -> {
         final long easyCount = Optional.ofNullable(m.get(Difficulty.EASY)).orElse(0L);
         final long mediumCount = Optional.ofNullable(m.get(Difficulty.MEDIUM)).orElse(0L);
@@ -23,12 +30,24 @@ public class ChallengeServiceImpl implements ChallengeService {
         return mediumCount + hardCount >= 3 && easyCount + mediumCount + hardCount >= 6;
     };
 
-    @Override
     public boolean hasTheChallengeDone(List<SolvedTask> filteredSolvedTasksList) {
         final var difficultyToCountSolvedInWeek = filteredSolvedTasksList.stream()
                                                              .map(solvedTask -> solvedTask.task().difficulty())
-                                                             .collect(Collectors.groupingBy(Function.identity(),
-                                                                 Collectors.counting()));
+                                                             .collect(Collectors.groupingBy(
+                                                                 Function.identity(),
+                                                                 Collectors.counting()
+                                                             ));
         return decider.apply(difficultyToCountSolvedInWeek);
+    }
+
+    @Override
+    public Optional<ChallengeStatusResponse> getStatusResponse(String username) {
+        return leetCodeService.getLatestSolvedTasksByUsername(username)
+                       .map(timeService::filterTasksWeekly)
+                       .map(list -> new ChallengeStatusResponse(
+                           hasTheChallengeDone(list),
+                           username,
+                           list
+                       ));
     }
 }

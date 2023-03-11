@@ -2,7 +2,6 @@ package io.nechn.lcct.service.impl;
 
 import io.nechn.lcct.api.LeetCodeApiWrapper;
 import io.nechn.lcct.model.SolvedTask;
-import io.nechn.lcct.model.Task;
 import io.nechn.lcct.service.LeetCodeService;
 import java.util.List;
 import java.util.Optional;
@@ -20,14 +19,11 @@ public class LeetCodeServiceImpl implements LeetCodeService {
         final var tasks = apiWrapper.getAllTasks();
         final var latestAcceptedByUsername = apiWrapper.getLatestAcceptedByUsername(username);
         return Optional.of(latestAcceptedByUsername.stream()
-                                                   .map(acceptedTask -> {
-                                                       final Task task = tasks.get(acceptedTask.slug());
-                                                       return new SolvedTask(
-                                                           task,
-                                                           acceptedTask.timestamp()
-                                                       );
-                                                   })
-                                                   .toList());
+                                                   .map(acceptedTask -> new SolvedTask(
+                                                       tasks.get(acceptedTask.slug()),
+                                                       acceptedTask.timestamp()
+                                                   ))
+                                                   .toList()
+        );
     }
-
 }
