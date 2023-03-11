@@ -9,6 +9,7 @@ import io.nechn.lcct.model.AcceptedTask;
 import io.nechn.lcct.model.Task;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import lombok.SneakyThrows;
@@ -47,13 +48,22 @@ public class LeetCodeApiWrapperImpl implements LeetCodeApiWrapper {
     @SneakyThrows
     @Override
     public List<AcceptedTask> getLatestAcceptedByUsername(String username) {
-        final var url = "https://leetcode.com/graphql";
+        final var url = "https://leetcode.com/";
         final var query = "{\"query\":\"query recentAcSubmissions($username: String!, $limit: Int!) { recentAcSubmissionList(username: $username, limit: $limit) {id,title,titleSlug,timestamp}\",\"variables\":{\"username\":\"nechn\",\"limit\":15}}";
+
+        final var httpHeaders1 = new HttpHeaders();
+        httpHeaders1.set("referer", "https://leetcode.com/" + username + "/");
+
+         final var token = Objects.requireNonNull(
+            restTemplate.exchange(url, HttpMethod.GET, new HttpEntity<>("", httpHeaders1), String.class).getHeaders()
+                        .get("set-cookie")).get(0).split(";")[0];
 
         final var headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.set("Cookie", token);
         headers.set("referer", "https://leetcode.com/" + username + "/");
         final var httpEntity = new HttpEntity<>(query, headers);
+
 
         final var payload = objectMapper.readValue(restTemplate.exchange(
             url, HttpMethod.POST, httpEntity, String.class
