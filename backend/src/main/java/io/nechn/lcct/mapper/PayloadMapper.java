@@ -6,6 +6,7 @@ import io.nechn.lcct.model.AcceptedTask;
 import io.nechn.lcct.model.Difficulty;
 import io.nechn.lcct.model.Task;
 import java.sql.Timestamp;
+import java.time.Instant;
 
 public interface PayloadMapper {
 
@@ -29,7 +30,7 @@ public interface PayloadMapper {
     static AcceptedTask fromRecentAcSubmissionToAcceptedTask(RecentAcSubmission submission) {
         return new AcceptedTask(
             submission.getTitleSlug(),
-            Timestamp.valueOf(submission.getTimestamp())
+            Timestamp.from(Instant.ofEpochSecond(Long.parseLong(submission.getTimestamp())))
         );
     }
 }
