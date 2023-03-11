@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 
-const SESSION_URL = 'http://localhost:8080/getChallengeStatus/session/main';
+const SESSION_URL = 'http://localhost/getChallengeStatus/session/main';
 const LEETCODE_PROBLEM_BASE_URL = 'https://leetcode.com/problems';
 const LEETCODE_BASE_URL = 'https://leetcode.com';
 
