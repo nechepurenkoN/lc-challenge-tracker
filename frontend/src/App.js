@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 
 const SESSION_URL = 'http://localhost:8080/getChallengeStatus/session/main';
 const LEETCODE_PROBLEM_BASE_URL = 'https://leetcode.com/problems';
+const LEETCODE_BASE_URL = 'https://leetcode.com';
 
 function App() {
 
@@ -34,7 +35,11 @@ function App() {
             {data.map((entry, idx) => (
                 <div key={idx} className={"card user-entry"}>
                     <div className={"card-header"}>
-                        <h5 className={"card-title"}>User: {entry.username}</h5>
+                        <h5 className={"card-title"}>User: <a href={`${LEETCODE_BASE_URL}/${entry.username}`}
+                                                              target={"_blank"}>
+                            {entry.username}
+                        </a>
+                        </h5>
                         <span className={`result badge ${getBadgeClass(entry.hasTheChallengeDone)}`}>
                             {entry.hasTheChallengeDone ? "done" : "not done"}
                         </span>
