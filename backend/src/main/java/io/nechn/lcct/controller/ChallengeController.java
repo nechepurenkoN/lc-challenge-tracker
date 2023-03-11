@@ -6,6 +6,7 @@ import io.nechn.lcct.service.LeetCodeService;
 import io.nechn.lcct.service.TimeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,7 @@ public class ChallengeController {
     private final TimeService timeService;
 
     @GetMapping("/getChallengeStatus/{username}")
+    @CrossOrigin(origins = "http://localhost:3000")
     public ResponseEntity<ChallengeStatusResponse> getChallengeStatus(@PathVariable String username) {
         return leetCodeService.getLatestSolvedTasksByUsername(username)
                               .map(timeService::filterTasksWeekly)
