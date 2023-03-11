@@ -17,6 +17,7 @@ public class LeetCodeServiceImpl implements LeetCodeService {
     @Override
     public Optional<List<SolvedTask>> getLatestSolvedTasksByUsername(String username) {
         final var tasks = apiWrapper.getAllTasks();
+        final var latestAcceptedByUsername = apiWrapper.getLatestAcceptedByUsername(username);
         return Optional.empty();
     }
 
