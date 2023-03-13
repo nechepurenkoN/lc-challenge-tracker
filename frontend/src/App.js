@@ -18,7 +18,8 @@ function App() {
                 setLoading(false);
             })
             .catch(reason => {
-                setError(true);
+                setError(reason);
+                setLoading(false)
             });
     }, []);
 
