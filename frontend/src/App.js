@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from "react";
+import {LEETCODE_BASE_URL, LEETCODE_PROBLEM_BASE_URL, SESSION_URL} from "./constants";
 
-const SESSION_URL = 'http://localhost/getChallengeStatus/session/main';
-const LEETCODE_PROBLEM_BASE_URL = 'https://leetcode.com/problems';
-const LEETCODE_BASE_URL = 'https://leetcode.com';
+
 
 function App() {
 
