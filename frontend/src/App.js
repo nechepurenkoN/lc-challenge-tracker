@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
-import {LEETCODE_BASE_URL, LEETCODE_PROBLEM_BASE_URL, SESSION_URL} from "./constants";
-
+import {SESSION_URL} from "./constants";
+import ChallengeStatusCard from "./components/ChallengeStatusCard";
 
 
 function App() {
 
-    const [data, setData] = useState([]);
+    const [data, setData] = useState({});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
@@ -27,54 +27,16 @@ function App() {
     }
 
     if (error) {
-        return <div>Error: {error.toString()}</div>;
+        return <div>Error :(</div>;
     }
 
     return (
         <div>
             {data.map((entry, idx) => (
-                <div key={idx} className={"card user-entry"}>
-                    <div className={"card-header"}>
-                        <h5 className={"card-title"}>User: <a href={`${LEETCODE_BASE_URL}/${entry.username}`}
-                                                              target={"_blank"}>
-                            {entry.username}
-                        </a>
-                        </h5>
-                        <span className={`result badge ${getBadgeClass(entry.hasTheChallengeDone)}`}>
-                            {entry.hasTheChallengeDone ? "done" : "not done"}
-                        </span>
-                    </div>
-                    <ul>
-                        {entry.solvedTasks.map(item => (
-                            <li key={item.task.slug} className={`alert ${getAlertClass(item.task.difficulty)}`}>
-                                <span>
-                                    <a href={`${LEETCODE_PROBLEM_BASE_URL}/${item.task.slug}`}>{item.task.title}</a>
-                                </span>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+                <ChallengeStatusCard idx={idx} entry={entry} key={idx} />
             ))}
         </div>
     );
-}
-
-function getAlertClass(difficulty) {
-    switch (difficulty) {
-        case "EASY":
-            return "alert-success";
-        case "MEDIUM":
-            return "alert-warning";
-        case "HARD":
-            return "alert-danger";
-        default:
-            return "alert-success";
-    }
-}
-
-
-function getBadgeClass(hasTheChallengeDone) {
-    return hasTheChallengeDone ? "text-bg-success" : "text-bg-danger";
 }
 
 export default App;
