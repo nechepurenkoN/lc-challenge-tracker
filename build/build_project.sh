@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ../frontend || exit
-npm run build
+BACKEND_HOST=$BACKEND_HOST npm run build
 cd ../build || exit
 cp -r ../backend t_backend
 cp -r ../frontend/build/* t_backend/src/main/resources/static
