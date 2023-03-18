@@ -53,6 +53,7 @@ public class LeetCodeApiWrapperImpl implements LeetCodeApiWrapper {
 
     @SneakyThrows
     @Override
+    @Cacheable("acByUser")
     public List<AcceptedTask> getLatestAcceptedByUsername(String username) {
         final var url = String.format(proxyGetLatestAcceptedUrlTemplate, username);
         final var payload = objectMapper.readValue(restTemplate.getForObject(url, String.class),
