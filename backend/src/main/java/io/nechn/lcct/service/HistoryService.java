@@ -9,4 +9,6 @@ public interface HistoryService {
 
     List<ChallengeStatusResponse> getHistoryEntry(String session, String id);
 
+    void saveHistory(String session, Long startOfTheWeek, List<ChallengeStatusResponse> data);
+
 }
