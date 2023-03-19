@@ -28,7 +28,7 @@ public class SnapshotServiceImpl implements SnapshotService {
             final var data = participantsList.getParticipants().stream()
                                              .map(username -> challengeService.getStatusResponse(username, time))
                                              .map(Optional::get).toList();
-            historyService.saveHistory(participantsList.getSession(), timeService.getStartOfTheWeekEpochSeconds(), data);
+            historyService.saveHistory(participantsList.getSession(), timeService.getStartOfTheWeekEpochSeconds(time), data);
         });
     }
 
