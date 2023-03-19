@@ -7,6 +7,7 @@ import io.nechn.lcct.model.SolvedTask;
 import io.nechn.lcct.service.ChallengeService;
 import io.nechn.lcct.service.LeetCodeService;
 import io.nechn.lcct.service.TimeService;
+import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -42,9 +43,9 @@ public class ChallengeServiceImpl implements ChallengeService {
     }
 
     @Override
-    public Optional<ChallengeStatus> getStatusResponse(String username) {
+    public Optional<ChallengeStatus> getStatusResponse(String username, Instant time) {
         return leetCodeService.getLatestSolvedTasksByUsername(username)
-                       .map(timeService::filterTasksWeekly)
+                       .map(taskList -> timeService.filterTasksWeekly(taskList, time))
                        .map(list -> new ChallengeStatus(
                            hasTheChallengeDone(list),
                            username,
