@@ -3,10 +3,13 @@ package io.nechn.lcct.mapper;
 import io.nechn.lcct.api.model.RecentAcSubmission;
 import io.nechn.lcct.api.model.StatStatusPair;
 import io.nechn.lcct.model.AcceptedTask;
+import io.nechn.lcct.model.DayTask;
 import io.nechn.lcct.model.Difficulty;
+import io.nechn.lcct.model.SolvedTask;
 import io.nechn.lcct.model.Task;
 import java.sql.Timestamp;
 import java.time.Instant;
+import java.time.ZoneId;
 
 public interface PayloadMapper {
 
@@ -31,6 +34,13 @@ public interface PayloadMapper {
         return new AcceptedTask(
             submission.getTitleSlug(),
             Timestamp.from(Instant.ofEpochSecond(Long.parseLong(submission.getTimestamp())))
+        );
+    }
+
+    static DayTask fromSolvedTask(SolvedTask solvedTask) {
+        return new DayTask(
+            solvedTask.task(),
+            solvedTask.timestamp().toInstant().atZone(ZoneId.of("UTC")).getDayOfWeek()
         );
     }
 }

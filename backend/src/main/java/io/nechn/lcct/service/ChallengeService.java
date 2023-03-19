@@ -1,10 +1,10 @@
 package io.nechn.lcct.service;
 
-import io.nechn.lcct.model.ChallengeStatusResponse;
+import io.nechn.lcct.model.ChallengeStatus;
 import java.util.Optional;
 
 public interface ChallengeService {
 
-    Optional<ChallengeStatusResponse> getStatusResponse(String username);
+    Optional<ChallengeStatus> getStatusResponse(String username);
 
 }

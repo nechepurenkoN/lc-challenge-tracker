@@ -1,6 +1,6 @@
 package io.nechn.lcct.entity;
 
-import io.nechn.lcct.model.ChallengeStatusResponse;
+import io.nechn.lcct.model.ChallengeStatus;
 import java.util.List;
 import lombok.Builder;
 import lombok.Data;
@@ -17,6 +17,6 @@ public class HistoryEntry {
 
     Long startOfTheWeek;
 
-    List<ChallengeStatusResponse> challengeStatusList;
+    List<ChallengeStatus> challengeStatusList;
 
 }

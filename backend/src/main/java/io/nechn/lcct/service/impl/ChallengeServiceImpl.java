@@ -1,6 +1,7 @@
 package io.nechn.lcct.service.impl;
 
-import io.nechn.lcct.model.ChallengeStatusResponse;
+import io.nechn.lcct.mapper.PayloadMapper;
+import io.nechn.lcct.model.ChallengeStatus;
 import io.nechn.lcct.model.Difficulty;
 import io.nechn.lcct.model.SolvedTask;
 import io.nechn.lcct.service.ChallengeService;
@@ -41,13 +42,13 @@ public class ChallengeServiceImpl implements ChallengeService {
     }
 
     @Override
-    public Optional<ChallengeStatusResponse> getStatusResponse(String username) {
+    public Optional<ChallengeStatus> getStatusResponse(String username) {
         return leetCodeService.getLatestSolvedTasksByUsername(username)
                        .map(timeService::filterTasksWeekly)
-                       .map(list -> new ChallengeStatusResponse(
+                       .map(list -> new ChallengeStatus(
                            hasTheChallengeDone(list),
                            username,
-                           list
+                           list.stream().map(PayloadMapper::fromSolvedTask).toList()
                        ));
     }
 }
