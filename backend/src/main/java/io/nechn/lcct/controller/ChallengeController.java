@@ -1,6 +1,7 @@
 package io.nechn.lcct.controller;
 
 import io.nechn.lcct.model.ChallengeStatusResponse;
+import io.nechn.lcct.model.HistoryEntryIdResponse;
 import io.nechn.lcct.service.ChallengeService;
 import io.nechn.lcct.service.HistoryService;
 import io.nechn.lcct.service.ParticipantsService;
@@ -35,7 +36,7 @@ public class ChallengeController {
     }
 
     @GetMapping("/history/{session}")
-    public ResponseEntity<List<String>> getSessionHistoryEntryIdList(@PathVariable String session) {
+    public ResponseEntity<List<HistoryEntryIdResponse>> getSessionHistoryEntryIdList(@PathVariable String session) {
         return ResponseEntity.ok(historyService.getHistoryIdList(session));
     }
 
