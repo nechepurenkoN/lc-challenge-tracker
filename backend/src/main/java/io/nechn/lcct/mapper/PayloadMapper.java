@@ -33,6 +33,7 @@ public interface PayloadMapper {
     static AcceptedTask fromRecentAcSubmissionToAcceptedTask(RecentAcSubmission submission) {
         return new AcceptedTask(
             submission.getTitleSlug(),
+            Integer.parseInt(submission.getId()),
             Timestamp.from(Instant.ofEpochSecond(Long.parseLong(submission.getTimestamp())))
         );
     }
@@ -40,6 +41,7 @@ public interface PayloadMapper {
     static DayTask fromSolvedTask(SolvedTask solvedTask) {
         return new DayTask(
             solvedTask.task(),
+            solvedTask.submissionId(),
             solvedTask.timestamp().toInstant().atZone(ZoneId.of("UTC")).getDayOfWeek()
         );
     }

@@ -21,6 +21,7 @@ public class LeetCodeServiceImpl implements LeetCodeService {
         return Optional.of(latestAcceptedByUsername.stream()
                                                    .map(acceptedTask -> new SolvedTask(
                                                        tasks.get(acceptedTask.slug()),
+                                                       acceptedTask.submissionId(),
                                                        acceptedTask.timestamp()
                                                    ))
                                                    .toList()
