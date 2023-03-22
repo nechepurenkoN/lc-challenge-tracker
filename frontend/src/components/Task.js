@@ -1,4 +1,4 @@
-import {LEETCODE_PROBLEM_BASE_URL} from "../constants";
+import {LEETCODE_PROBLEM_BASE_URL, LEETCODE_SUBMISSION_DETAIL_BASE_URL} from "../constants";
 import React from "react";
 
 
@@ -8,6 +8,9 @@ function Task(props) {
             <span>
                 <a href={`${LEETCODE_PROBLEM_BASE_URL}/${props.slug}`} target={"_blank"}>
                     {props.title}
+                    <a href={`${LEETCODE_SUBMISSION_DETAIL_BASE_URL}/${props.submissionId}`} target={"_blank"}>
+                        <button className={"btn btn-outline-success btn-sm btn-solution"}>View solution</button>
+                    </a>
                 </a>
             </span>
         </li>

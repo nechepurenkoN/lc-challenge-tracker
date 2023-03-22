@@ -16,8 +16,11 @@ function ChallengeStatusCard(props) {
             </div>
             <ul>
                 {props.entry.solvedTasks.map(item => (
-                    <Task title={item.task.title} slug={item.task.slug}
-                          difficulty={item.task.difficulty} key={item.task.slug}/>
+                    <Task title={item.task.title}
+                          slug={item.task.slug}
+                          difficulty={item.task.difficulty}
+                          submissionId={item.submissionId}
+                          key={item.task.slug}/>
                 ))}
             </ul>
         </div>

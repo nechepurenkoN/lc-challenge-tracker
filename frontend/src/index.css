@@ -58,3 +58,7 @@ ul.rules-list > li:before {
   text-decoration: none;
   color: inherit;
 }
+
+.btn-solution {
+  margin-left: 10px;
+}
