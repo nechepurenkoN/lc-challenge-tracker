@@ -17,6 +17,7 @@ export default function ChallengeBody() {
             .catch(reason => {
                 setError(reason);
                 setLoading(false)
+                console.log(reason)
             });
     }, []);
 

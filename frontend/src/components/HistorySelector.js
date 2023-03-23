@@ -36,15 +36,40 @@ export default function HistorySelector(props) {
 
     return (
         <nav className="navbar navbar-light">
-            <form className="form-inline">
-                <HistoryButton key={"current"} text={"Current state"}/>
-                <span> | </span>
-                {historyList.map((historyEntry, idx) => (
-                        <HistoryButton key={idx} text={historyEntry.formattedDateRange}/>
-                    )
-                )}
-            </form>
+            <HistoryButtonGroup historyList={historyList} />
         </nav>
+    );
+}
+
+function HistoryButtonGroup(props) {
+
+    const [clickedId, setClickedId] = useState(0);
+
+    const handleClick = (event, buttonId) => {
+        setClickedId(buttonId);
+        console.log(buttonId);
+    };
+
+    return (
+        <form className="form-inline">
+            <HistoryButton
+                key={"current"}
+                text={"Current state"}
+                onClick={handleClick}
+                activeState={0 === clickedId}
+                index={0}
+            />
+            <span> | </span>
+            {props.historyList.map((historyEntry, idx) => (
+                    <HistoryButton key={idx}
+                                   text={historyEntry.formattedDateRange}
+                                   onClick={handleClick}
+                                   activeState={idx + 1 === clickedId}
+                                   index={idx + 1}
+                    />
+                )
+            )}
+        </form>
     );
 }
 
@@ -52,16 +77,11 @@ function HistoryButton(props) {
     const historyButtonClassList = "btn btn-outline-primary btn-sm btn-history";
     const historyActiveButtonClassList = "btn btn-outline-primary btn-sm active btn-history";
 
-    const [historyButtonActive, setHistoryButtonActive] = useState(false);
-
-    const handleClick = ev => {
-        setHistoryButtonActive(true);
-    };
-
     return (
-        <button className={historyButtonActive ? historyActiveButtonClassList : historyButtonClassList}
+        <button className={props.activeState ? historyActiveButtonClassList : historyButtonClassList}
                 type="button"
-                onClick={handleClick}>
+                onClick={ev => props.onClick(ev, props.index)}
+        >
             {props.text}
         </button>
     );
