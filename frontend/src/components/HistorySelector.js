@@ -47,7 +47,6 @@ function HistoryButtonGroup(props) {
 
     const handleClick = (event, buttonId) => {
         setClickedId(buttonId);
-        console.log(buttonId);
     };
 
     return (
