@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from "react";
-import {SESSION_URL} from "../constants";
+import {HISTORY_URL, SESSION_URL} from "../constants";
 import ChallengeStatusCard from "./ChallengeStatusCard";
 
-export default function ChallengeBody() {
+export default function ChallengeBody(props) {
     const [data, setData] = useState({});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
     useEffect(() => {
-        fetch(SESSION_URL)
+        fetch(getLink(props.bodyState))
             .then(response => response.json())
             .then(data => {
                 setData(data);
@@ -19,7 +19,7 @@ export default function ChallengeBody() {
                 setLoading(false)
                 console.log(reason)
             });
-    }, []);
+    }, [props.bodyState]);
 
     if (loading) {
         return <div>Loading...</div>;
@@ -36,4 +36,9 @@ export default function ChallengeBody() {
             ))}
         </div>
     );
+}
+
+function getLink(bodyState) {
+    if (bodyState === "current") return SESSION_URL;
+    return HISTORY_URL + "/" + bodyState;
 }

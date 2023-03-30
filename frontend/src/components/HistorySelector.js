@@ -36,7 +36,7 @@ export default function HistorySelector(props) {
 
     return (
         <nav className="navbar navbar-light">
-            <HistoryButtonGroup historyList={historyList} />
+            <HistoryButtonGroup historyList={historyList} setBodyState={props.setBodyState} />
         </nav>
     );
 }
@@ -47,6 +47,7 @@ function HistoryButtonGroup(props) {
 
     const handleClick = (event, buttonId) => {
         setClickedId(buttonId);
+        props.setBodyState(buttonId === 0 ? "current" : props.historyList[buttonId - 1].id);
     };
 
     return (

@@ -5,12 +5,12 @@ import ChallengeBody from "./components/ChallengeBody";
 
 function App() {
 
-    const [bodyState, setBodyState] = useState({});
+    const [bodyState, setBodyState] = useState("current");
 
     return (
         <div>
-            <HistorySelector />
-            <ChallengeBody />
+            <HistorySelector setBodyState={setBodyState} />
+            <ChallengeBody bodyState={bodyState} />
         </div>
     );
 }
