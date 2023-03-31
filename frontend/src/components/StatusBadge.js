@@ -1,9 +1,9 @@
 import React from "react";
 
-function StatusBadge(props) {
+function StatusBadge({ status }) {
     return (
-        <span className={`result badge ${getBadgeClass(props.status)}`}>
-            {props.status ? "done" : "not done"}
+        <span className={`result badge ${getBadgeClass(status)}`}>
+            {status ? "done" : "not done"}
         </span>
     );
 }

@@ -2,14 +2,14 @@ import {LEETCODE_PROBLEM_BASE_URL} from "../constants";
 import React from "react";
 
 
-function Task(props) {
+function Task({ title, slug, difficulty, submissionId }) {
     return (
-        <li key={props.slug} className={`alert ${getAlertClass(props.difficulty)}`}>
+        <li key={slug} className={`alert ${getAlertClass(difficulty)}`}>
             <span>
-                <a href={`${LEETCODE_PROBLEM_BASE_URL}/${props.slug}`} target={"_blank"}>
-                    {props.title}
+                <a href={`${LEETCODE_PROBLEM_BASE_URL}/${slug}`} target={"_blank"}>
+                    {title}
                 </a>
-                <a href={`${LEETCODE_PROBLEM_BASE_URL}/${props.slug}/submissions/${props.submissionId}`} target={"_blank"}>
+                <a href={`${LEETCODE_PROBLEM_BASE_URL}/${slug}/submissions/${submissionId}`} target={"_blank"}>
                     <button className={"btn btn-outline-success btn-sm btn-solution"}>View solution</button>
                 </a>
             </span>

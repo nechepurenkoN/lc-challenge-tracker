@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {HISTORY_URL} from "../constants";
 
-export default function HistorySelector(props) {
+export default function HistorySelector({ setBodyState }) {
 
     const [historyList, setHistoryList] = useState({});
     const [historyListLoading, setHistoryListLoading] = useState(true);
@@ -36,18 +36,18 @@ export default function HistorySelector(props) {
 
     return (
         <nav className="navbar navbar-light">
-            <HistoryButtonGroup historyList={historyList} setBodyState={props.setBodyState} />
+            <HistoryButtonGroup historyList={historyList} setBodyState={setBodyState} />
         </nav>
     );
 }
 
-function HistoryButtonGroup(props) {
+function HistoryButtonGroup({ setBodyState, historyList }) {
 
     const [clickedId, setClickedId] = useState(0);
 
     const handleClick = (event, buttonId) => {
         setClickedId(buttonId);
-        props.setBodyState(buttonId === 0 ? "current" : props.historyList[buttonId - 1].id);
+        setBodyState(buttonId === 0 ? "current" : historyList[buttonId - 1].id);
     };
 
     return (
@@ -60,7 +60,7 @@ function HistoryButtonGroup(props) {
                 index={0}
             />
             <span> | </span>
-            {props.historyList.map((historyEntry, idx) => (
+            {historyList.map((historyEntry, idx) => (
                     <HistoryButton key={idx}
                                    text={historyEntry.formattedDateRange}
                                    onClick={handleClick}
@@ -73,16 +73,16 @@ function HistoryButtonGroup(props) {
     );
 }
 
-function HistoryButton(props) {
+function HistoryButton({ activeState, onClick, index, text }) {
     const historyButtonClassList = "btn btn-outline-primary btn-sm btn-history";
     const historyActiveButtonClassList = "btn btn-outline-primary btn-sm active btn-history";
 
     return (
-        <button className={props.activeState ? historyActiveButtonClassList : historyButtonClassList}
+        <button className={activeState ? historyActiveButtonClassList : historyButtonClassList}
                 type="button"
-                onClick={ev => props.onClick(ev, props.index)}
+                onClick={ev => onClick(ev, index)}
         >
-            {props.text}
+            {text}
         </button>
     );
 }
