@@ -31,7 +31,7 @@ export default function ChallengeBody({ bodyState }) {
     }
 
     return (
-        <div>
+        <div className={"card-container"}>
             {data.map((entry, idx) => (
                 <ChallengeStatusCard idx={idx} entry={entry} key={idx} />
             ))}

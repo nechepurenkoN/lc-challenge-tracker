@@ -32,9 +32,20 @@ ul.rules-list > li:before {
   margin: 5px;
 }
 
+.history-separator {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .user-entry {
-  margin-top: 10px;
-  max-width: 32rem;
+  margin: 10px;
+  flex: 1;
+  flex-basis: calc(80% / 3);
 }
 
 .user-entry h5 {
@@ -43,14 +54,26 @@ ul.rules-list > li:before {
 }
 
 .user-entry ul {
-  margin: 10px 0;
+  margin-bottom: 0;
   margin-block-start: 0;
   padding-inline-start: 0;
 }
 
 .user-entry li {
   list-style: none;
-  margin: 5px 0;
+}
+
+.task-entry {
+  border-top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 0;
+  margin: 0;
+  height: 3rem;
+  padding: 0.7rem 16px;
+}
+
+.task-entry:last-child {
+  border-bottom: 0;
 }
 
 .user-entry a {
@@ -64,6 +87,7 @@ ul.rules-list > li:before {
 
 .heatmap {
   display: inline-block;
+  float: right;
 }
 
 .heatmap svg {

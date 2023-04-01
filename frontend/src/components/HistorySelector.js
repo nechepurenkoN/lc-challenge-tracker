@@ -59,7 +59,7 @@ function HistoryButtonGroup({ setBodyState, historyList }) {
                 activeState={0 === clickedId}
                 index={0}
             />
-            <span> | </span>
+            <span className={"history-separator"}> | </span>
             {historyList.map((historyEntry, idx) => (
                     <HistoryButton key={idx}
                                    text={historyEntry.formattedDateRange}

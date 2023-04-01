@@ -11,9 +11,9 @@ export default function HeatMap({solvedTasks}) {
     return (
         <div className={"heatmap"}>
             {DAYS.map(day => (
-                <svg width={"10px"} height={"10px"}>
+                <svg width={"10px"} height={"10px"} key={day}>
                     <rect width={"10px"} height={"10px"} rx={2} ry={2}
-                          className={`heatmap-day-rect heatmap-day-rect-${Math.min(groupedByDay[day].length, 4)}`} key={day}/>
+                          className={`heatmap-day-rect heatmap-day-rect-${Math.min(groupedByDay[day].length, 4)}`}/>
                 </svg>
             ))}
         </div>
