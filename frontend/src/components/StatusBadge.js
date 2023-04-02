@@ -1,6 +1,6 @@
 import React from "react";
 
-function StatusBadge({ status }) {
+export default function StatusBadge({ status }) {
     return (
         <span className={`result badge ${getBadgeClass(status)}`}>
             {status ? "done" : "not done"}
@@ -11,5 +11,3 @@ function StatusBadge({ status }) {
 function getBadgeClass(hasTheChallengeDone) {
     return hasTheChallengeDone ? "text-bg-success" : "text-bg-danger";
 }
-
-export default StatusBadge;

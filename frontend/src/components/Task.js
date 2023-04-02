@@ -9,7 +9,7 @@ function stripTitle(title) {
     return title.substring(0, 48) + "...";
 }
 
-function Task({ title, slug, difficulty, submissionId }) {
+export default function Task({ title, slug, difficulty, submissionId }) {
     return (
         <li key={slug} className={`alert ${getAlertClass(difficulty)} task-entry`}>
             <span>
@@ -38,5 +38,3 @@ function getAlertClass(difficulty) {
             return "alert-success";
     }
 }
-
-export default Task;

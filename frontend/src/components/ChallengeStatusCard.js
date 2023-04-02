@@ -4,7 +4,7 @@ import Task from "./Task";
 import React from "react";
 import HeatMap from "./HeatMap";
 
-function ChallengeStatusCard({ idx, entry }) {
+export default function ChallengeStatusCard({ idx, entry }) {
     return (
         <div key={idx} className={"card user-entry"}>
             <div className={"card-header"}>
@@ -28,5 +28,3 @@ function ChallengeStatusCard({ idx, entry }) {
         </div>
     );
 }
-
-export default ChallengeStatusCard;
