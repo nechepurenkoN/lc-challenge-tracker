@@ -21,3 +21,5 @@ The app consists of a few components:
 
 A packaged frontend + backend jar is supposed to be built using scripts 
 in the `build` folder.
+
+![Main page](https://imgur.com/ct9PKBL.png)
