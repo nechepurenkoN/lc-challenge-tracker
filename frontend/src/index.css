@@ -46,6 +46,7 @@ ul.rules-list > li:before {
   margin: 10px;
   flex: 1;
   flex-basis: calc(80% / 3);
+  min-width: 270px;
 }
 
 .user-entry h5 {
@@ -70,6 +71,9 @@ ul.rules-list > li:before {
   margin: 0;
   height: 3rem;
   padding: 0.7rem 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .task-entry:last-child {
