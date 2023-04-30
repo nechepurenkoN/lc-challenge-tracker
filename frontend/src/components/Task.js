@@ -1,27 +1,21 @@
 import {LEETCODE_PROBLEM_BASE_URL} from "../constants";
 import React from "react";
 
-
-function stripTitle(title) {
-    if (title.length < 50)
-        return title;
-
-    return title.substring(0, 48) + "...";
-}
-
 export default function Task({ title, slug, difficulty, submissionId }) {
     return (
         <li key={slug} className={`alert ${getAlertClass(difficulty)} task-entry`}>
-            <span>
+            <div className={"task-name"}>
                 <a href={`${LEETCODE_PROBLEM_BASE_URL}/${slug}`} target={"_blank"}>
-                    {stripTitle(title)}
+                    {title}
                 </a>
+            </div>
+            <div className={"task-solution"}>
                 <a href={`${LEETCODE_PROBLEM_BASE_URL}/${slug}/submissions/${submissionId}`} target={"_blank"}>
-                    <button className={"btn btn-outline-success btn-sm btn-solution"} style={{float: "right"}}>
+                    <button className={"btn btn-outline-success btn-sm btn-solution"}>
                         Solution
                     </button>
                 </a>
-            </span>
+            </div>
         </li>
     );
 }

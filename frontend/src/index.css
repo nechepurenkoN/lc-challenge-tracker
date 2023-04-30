@@ -64,6 +64,7 @@ ul.rules-list > li:before {
   list-style: none;
 }
 
+
 .task-entry {
   border-top: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.175);
@@ -72,8 +73,14 @@ ul.rules-list > li:before {
   height: 3rem;
   padding: 0.7rem 16px;
   overflow: hidden;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+}
+.task-name {
+  overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-basis: 80%;
 }
 
 .task-entry:last-child {
@@ -86,7 +93,6 @@ ul.rules-list > li:before {
 }
 
 .btn-solution {
-  margin-left: 10px;
 }
 
 .heatmap {
