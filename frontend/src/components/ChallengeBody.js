@@ -3,26 +3,43 @@ import {HISTORY_URL, SESSION_URL} from "../constants";
 import ChallengeStatusCard from "./ChallengeStatusCard";
 
 export default function ChallengeBody({ bodyState }) {
-    const [data, setData] = useState({});
+    const [data, setData] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
     useEffect(() => {
+        const abortController = new AbortController();
+
         setLoading(true);
-        fetch(getLink(bodyState))
-            .then(response => response.json())
+        fetch(getLink(bodyState), {
+            signal: abortController.signal,
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                }
+                return Promise.reject();
+            })
             .then(data => {
                 setData(data);
-                setLoading(false);
             })
-            .catch(reason => {
-                setError(reason);
-                setLoading(false)
-                console.log(reason)
+            .catch(() => {
+                if (abortController.signal.aborted) {
+                    console.log('The user aborted the request');
+                } else {
+                    console.error('The request failed');
+                }
+            })
+            .finally(() => {
+                setLoading(false);
             });
+
+        return () => {
+            abortController.abort();
+        };
     }, [bodyState]);
 
-    if (loading) {
+    if (loading || !data) {
         return <div>Loading...</div>;
     }
 
@@ -33,7 +50,7 @@ export default function ChallengeBody({ bodyState }) {
     return (
         <div className={"card-container"}>
             {data.map((entry, idx) => (
-                <ChallengeStatusCard idx={idx} entry={entry} key={idx} />
+                <ChallengeStatusCard idx={idx} entry={entry} key={idx}/>
             ))}
         </div>
     );
