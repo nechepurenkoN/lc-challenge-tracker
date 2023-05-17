@@ -2,15 +2,14 @@ import React, {useEffect, useState} from "react";
 import {HISTORY_URL, SESSION_URL} from "../constants";
 import ChallengeStatusCard from "./ChallengeStatusCard";
 
-export default function ChallengeBody({ bodyState }) {
+export default function ChallengeBody({ bodyState, setIsLoading }) {
     const [data, setData] = useState(false);
-    const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
 
     useEffect(() => {
         const abortController = new AbortController();
 
-        setLoading(true);
+        setIsLoading(true);
         fetch(getLink(bodyState), {
             signal: abortController.signal,
         })
@@ -31,7 +30,7 @@ export default function ChallengeBody({ bodyState }) {
                 }
             })
             .finally(() => {
-                setLoading(false);
+                setIsLoading(false);
             });
 
         return () => {
@@ -39,8 +38,8 @@ export default function ChallengeBody({ bodyState }) {
         };
     }, [bodyState]);
 
-    if (loading || !data) {
-        return <div>Loading...</div>;
+    if (!data) {
+        return <div></div>
     }
 
     if (error) {

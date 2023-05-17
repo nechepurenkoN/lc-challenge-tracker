@@ -36,6 +36,10 @@ ul.rules-list > li:before {
   color: rgba(0, 0, 0, 0.35);
 }
 
+.loader-wrapper {
+  height: 15px;
+}
+
 .card-container {
   display: flex;
   align-items: flex-start;
