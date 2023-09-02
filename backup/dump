@@ -1,0 +1,3341 @@
+// participantsList 
+{
+    _id: ObjectId("6421541831a41914f1797ee4"),
+    session: 'main',
+    participants: ['nechn', 'nek1tko', 'DaniilKornilov'],
+    _class: 'io.nechn.lcct.entity.ParticipantsList'
+}
+
+//
+[
+  {
+    _id: ObjectId("642168528b577a2d364b7968"),
+    session: 'main',
+    startOfTheWeek: Long("1678665600"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'design-add-and-search-words-data-structure',
+              title: 'Design Add and Search Words Data Structure',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 917947208,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'design-browser-history',
+              title: 'Design Browser History',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 917239992,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'implement-trie-prefix-tree',
+              title: 'Implement Trie (Prefix Tree)',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 916743122,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'binary-tree-preorder-traversal',
+              title: 'Binary Tree Preorder Traversal',
+              difficulty: 'EASY'
+            },
+            submissionId: 916282679,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'queries-on-number-of-points-inside-a-circle',
+              title: 'Queries on Number of Points Inside a Circle',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 916274665,
+            day: 'THURSDAY'
+          },
+          {
+            task: { slug: 'plus-one', title: 'Plus One', difficulty: 'EASY' },
+            submissionId: 915573840,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'check-completeness-of-a-binary-tree',
+              title: 'Check Completeness of a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 915570719,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'sum-root-to-leaf-numbers',
+              title: 'Sum Root to Leaf Numbers',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 914851368,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'symmetric-tree',
+              title: 'Symmetric Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 914225689,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'zigzag-conversion',
+              title: 'Zigzag Conversion',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 917107818,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'implement-trie-prefix-tree',
+              title: 'Implement Trie (Prefix Tree)',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 917079382,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'check-completeness-of-a-binary-tree',
+              title: 'Check Completeness of a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 916457879,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'construct-binary-tree-from-inorder-and-postorder-traversal',
+              title: 'Construct Binary Tree from Inorder and Postorder Traversal',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 916444625,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'sum-root-to-leaf-numbers',
+              title: 'Sum Root to Leaf Numbers',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 915243205,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'symmetric-tree',
+              title: 'Symmetric Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 914643234,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'deoraven',
+        solvedTasks: [
+          {
+            task: { slug: 'plus-one', title: 'Plus One', difficulty: 'EASY' },
+            submissionId: 918110582,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'binary-tree-preorder-traversal',
+              title: 'Binary Tree Preorder Traversal',
+              difficulty: 'EASY'
+            },
+            submissionId: 918109070,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'implement-trie-prefix-tree',
+              title: 'Implement Trie (Prefix Tree)',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 918106456,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'check-completeness-of-a-binary-tree',
+              title: 'Check Completeness of a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 918105376,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'symmetric-tree',
+              title: 'Symmetric Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 918096533,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'unique-length-3-palindromic-subsequences',
+              title: 'Unique Length-3 Palindromic Subsequences',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 914368721,
+            day: 'MONDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("642168908b577a2d364b7969"),
+    session: 'main',
+    startOfTheWeek: Long("1679270400"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'find-first-palindromic-string-in-the-array',
+              title: 'Find First Palindromic String in the Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 922630262,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'count-unreachable-pairs-of-nodes-in-an-undirected-graph',
+              title: 'Count Unreachable Pairs of Nodes in an Undirected Graph',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 921706457,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'valid-perfect-square',
+              title: 'Valid Perfect Square',
+              difficulty: 'EASY'
+            },
+            submissionId: 921169020,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'reorder-routes-to-make-all-paths-lead-to-the-city-zero',
+              title: 'Reorder Routes to Make All Paths Lead to the City Zero',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 921162191,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-operations-to-make-network-connected',
+              title: 'Number of Operations to Make Network Connected',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 920844300,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-score-of-a-path-between-two-cities',
+              title: 'Minimum Score of a Path Between Two Cities',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 920064866,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-zero-filled-subarrays',
+              title: 'Number of Zero-Filled Subarrays',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 919310888,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'can-place-flowers',
+              title: 'Can Place Flowers',
+              difficulty: 'EASY'
+            },
+            submissionId: 918551886,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'longest-cycle-in-a-graph',
+              title: 'Longest Cycle in a Graph',
+              difficulty: 'HARD'
+            },
+            submissionId: 922512894,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-score-of-a-path-between-two-cities',
+              title: 'Minimum Score of a Path Between Two Cities',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 922087845,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'count-unreachable-pairs-of-nodes-in-an-undirected-graph',
+              title: 'Count Unreachable Pairs of Nodes in an Undirected Graph',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 922072736,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-operations-to-make-network-connected',
+              title: 'Number of Operations to Make Network Connected',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 921535366,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'reorder-routes-to-make-all-paths-lead-to-the-city-zero',
+              title: 'Reorder Routes to Make All Paths Lead to the City Zero',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 921519629,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'can-place-flowers',
+              title: 'Can Place Flowers',
+              difficulty: 'EASY'
+            },
+            submissionId: 919044561,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'deoraven',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("642a16c83f42ed7156fcf3e6"),
+    session: 'main',
+    startOfTheWeek: Long("1679875200"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'successful-pairs-of-spells-and-potions',
+              title: 'Successful Pairs of Spells and Potions',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 926523704,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'binary-search',
+              title: 'Binary Search',
+              difficulty: 'EASY'
+            },
+            submissionId: 925768619,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-cost-for-tickets',
+              title: 'Minimum Cost For Tickets',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 925211866,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'find-all-duplicates-in-an-array',
+              title: 'Find All Duplicates in an Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 924643461,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-1-bits',
+              title: 'Number of 1 Bits',
+              difficulty: 'EASY'
+            },
+            submissionId: 924264806,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'same-tree',
+              title: 'Same Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 923800487,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-path-sum',
+              title: 'Minimum Path Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 922946587,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'reverse-integer',
+              title: 'Reverse Integer',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 926067807,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'string-to-integer-atoi',
+              title: 'String to Integer (atoi)',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 926054934,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'binary-search',
+              title: 'Binary Search',
+              difficulty: 'EASY'
+            },
+            submissionId: 926026326,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'reducing-dishes',
+              title: 'Reducing Dishes',
+              difficulty: 'HARD'
+            },
+            submissionId: 924470183,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-cost-for-tickets',
+              title: 'Minimum Cost For Tickets',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 923542591,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-path-sum',
+              title: 'Minimum Path Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 923291266,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'valid-parentheses',
+              title: 'Valid Parentheses',
+              difficulty: 'EASY'
+            },
+            submissionId: 926782117,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'trapping-rain-water',
+              title: 'Trapping Rain Water',
+              difficulty: 'HARD'
+            },
+            submissionId: 925910168,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'container-with-most-water',
+              title: 'Container With Most Water',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 925468652,
+            day: 'FRIDAY'
+          },
+          {
+            task: { slug: '3sum', title: '3Sum', difficulty: 'MEDIUM' },
+            submissionId: 924941341,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'two-sum-ii-input-array-is-sorted',
+              title: 'Two Sum II - Input Array Is Sorted',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 924409377,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'valid-palindrome',
+              title: 'Valid Palindrome',
+              difficulty: 'EASY'
+            },
+            submissionId: 923833509,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'longest-consecutive-sequence',
+              title: 'Longest Consecutive Sequence',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 923820263,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'valid-sudoku',
+              title: 'Valid Sudoku',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 923191300,
+            day: 'MONDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("643351483f42ed7156fcf3e7"),
+    session: 'main',
+    startOfTheWeek: Long("1680480000"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'largest-color-value-in-a-directed-graph',
+              title: 'Largest Color Value in a Directed Graph',
+              difficulty: 'HARD'
+            },
+            submissionId: 930855615,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'clone-graph',
+              title: 'Clone Graph',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 930247666,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-index-of-the-first-occurrence-in-a-string',
+              title: 'Find the Index of the First Occurrence in a String',
+              difficulty: 'EASY'
+            },
+            submissionId: 929466994,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-enclaves',
+              title: 'Number of Enclaves',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929462594,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-closed-islands',
+              title: 'Number of Closed Islands',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929163416,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'minimize-maximum-of-array',
+              title: 'Minimize Maximum of Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 928294472,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'optimal-partition-of-string',
+              title: 'Optimal Partition of String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 927737351,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'boats-to-save-people',
+              title: 'Boats to Save People',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 927008515,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'container-with-most-water',
+              title: 'Container With Most Water',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929858315,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'boats-to-save-people',
+              title: 'Boats to Save People',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929855052,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'minimize-maximum-of-array',
+              title: 'Minimize Maximum of Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929847547,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-enclaves',
+              title: 'Number of Enclaves',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929821844,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'optimal-partition-of-string',
+              title: 'Optimal Partition of String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 928116437,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'palindrome-number',
+              title: 'Palindrome Number',
+              difficulty: 'EASY'
+            },
+            submissionId: 928112038,
+            day: 'TUESDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'binary-search',
+              title: 'Binary Search',
+              difficulty: 'EASY'
+            },
+            submissionId: 930284813,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'car-fleet',
+              title: 'Car Fleet',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 930273885,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'daily-temperatures',
+              title: 'Daily Temperatures',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 929254603,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'generate-parentheses',
+              title: 'Generate Parentheses',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 928711371,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'evaluate-reverse-polish-notation',
+              title: 'Evaluate Reverse Polish Notation',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 928072932,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'min-stack',
+              title: 'Min Stack',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 927433414,
+            day: 'MONDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("643c8bc93f42ed7156fcf3e8"),
+    session: 'main',
+    startOfTheWeek: Long("1681084800"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'tenth-line',
+              title: 'Tenth Line',
+              difficulty: 'EASY'
+            },
+            submissionId: 933966959,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-equivalent-domino-pairs',
+              title: 'Number of Equivalent Domino Pairs',
+              difficulty: 'EASY'
+            },
+            submissionId: 933965287,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'validate-stack-sequences',
+              title: 'Validate Stack Sequences',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 933225710,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'simplify-path',
+              title: 'Simplify Path',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 932583425,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'removing-stars-from-a-string',
+              title: 'Removing Stars From a String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 931722349,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'valid-parentheses',
+              title: 'Valid Parentheses',
+              difficulty: 'EASY'
+            },
+            submissionId: 931234983,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'longest-common-prefix',
+              title: 'Longest Common Prefix',
+              difficulty: 'EASY'
+            },
+            submissionId: 934372320,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-index-of-the-first-occurrence-in-a-string',
+              title: 'Find the Index of the First Occurrence in a String',
+              difficulty: 'EASY'
+            },
+            submissionId: 934369064,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'validate-stack-sequences',
+              title: 'Validate Stack Sequences',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 934363484,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'simplify-path',
+              title: 'Simplify Path',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 932461405,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'removing-stars-from-a-string',
+              title: 'Removing Stars From a String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 932138877,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'valid-parentheses',
+              title: 'Valid Parentheses',
+              difficulty: 'EASY'
+            },
+            submissionId: 932136594,
+            day: 'TUESDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'kth-largest-element-in-a-stream',
+              title: 'Kth Largest Element in a Stream',
+              difficulty: 'EASY'
+            },
+            submissionId: 934697378,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'last-stone-weight',
+              title: 'Last Stone Weight',
+              difficulty: 'EASY'
+            },
+            submissionId: 934692594,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-a-2d-matrix',
+              title: 'Search a 2D Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 934688711,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'koko-eating-bananas',
+              title: 'Koko Eating Bananas',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 934685524,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'longest-substring-without-repeating-characters',
+              title: 'Longest Substring Without Repeating Characters',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 932470617,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'best-time-to-buy-and-sell-stock',
+              title: 'Best Time to Buy and Sell Stock',
+              difficulty: 'EASY'
+            },
+            submissionId: 932459313,
+            day: 'WEDNESDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("6445c6493f42ed7156fcf3e9"),
+    session: 'main',
+    startOfTheWeek: Long("1681689600"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'bitwise-xor-of-all-pairings',
+              title: 'Bitwise XOR of All Pairings',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 938486394,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'longest-palindrome',
+              title: 'Longest Palindrome',
+              difficulty: 'EASY'
+            },
+            submissionId: 938481820,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-in-rotated-sorted-array',
+              title: 'Search in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 938472828,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'longest-zigzag-path-in-a-binary-tree',
+              title: 'Longest ZigZag Path in a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 936189236,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'merge-strings-alternately',
+              title: 'Merge Strings Alternately',
+              difficulty: 'EASY'
+            },
+            submissionId: 935948623,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'kids-with-the-greatest-number-of-candies',
+              title: 'Kids With the Greatest Number of Candies',
+              difficulty: 'EASY'
+            },
+            submissionId: 935118643,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: { slug: '3sum', title: '3Sum', difficulty: 'MEDIUM' },
+            submissionId: 938552080,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-insertion-steps-to-make-a-string-palindrome',
+              title: 'Minimum Insertion Steps to Make a String Palindrome',
+              difficulty: 'HARD'
+            },
+            submissionId: 938531470,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-width-of-binary-tree',
+              title: 'Maximum Width of Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 937124670,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'kids-with-the-greatest-number-of-candies',
+              title: 'Kids With the Greatest Number of Candies',
+              difficulty: 'EASY'
+            },
+            submissionId: 936603556,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'merge-strings-alternately',
+              title: 'Merge Strings Alternately',
+              difficulty: 'EASY'
+            },
+            submissionId: 936601088,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'longest-zigzag-path-in-a-binary-tree',
+              title: 'Longest ZigZag Path in a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 936599518,
+            day: 'WEDNESDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'time-based-key-value-store',
+              title: 'Time Based Key-Value Store',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 938392376,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-in-rotated-sorted-array',
+              title: 'Search in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 938372374,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-minimum-in-rotated-sorted-array',
+              title: 'Find Minimum in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 938366536,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'largest-rectangle-in-histogram',
+              title: 'Largest Rectangle in Histogram',
+              difficulty: 'HARD'
+            },
+            submissionId: 937859681,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'merge-two-sorted-lists',
+              title: 'Merge Two Sorted Lists',
+              difficulty: 'EASY'
+            },
+            submissionId: 937854131,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'reverse-linked-list',
+              title: 'Reverse Linked List',
+              difficulty: 'EASY'
+            },
+            submissionId: 937836949,
+            day: 'SATURDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("644f00c877e44672c06f07b2"),
+    session: 'main',
+    startOfTheWeek: Long("1682294400"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'remove-nth-node-from-end-of-list',
+              title: 'Remove Nth Node From End of List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 941976855,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'letter-combinations-of-a-phone-number',
+              title: 'Letter Combinations of a Phone Number',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 941973696,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'bulb-switcher',
+              title: 'Bulb Switcher',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 940448840,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'add-digits',
+              title: 'Add Digits',
+              difficulty: 'EASY'
+            },
+            submissionId: 939921256,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'smallest-number-in-infinite-set',
+              title: 'Smallest Number in Infinite Set',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 939350806,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'last-stone-weight',
+              title: 'Last Stone Weight',
+              difficulty: 'EASY'
+            },
+            submissionId: 938819164,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'search-insert-position',
+              title: 'Search Insert Position',
+              difficulty: 'EASY'
+            },
+            submissionId: 942239041,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'swap-nodes-in-pairs',
+              title: 'Swap Nodes in Pairs',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 942232122,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'roman-to-integer',
+              title: 'Roman to Integer',
+              difficulty: 'EASY'
+            },
+            submissionId: 940787447,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'generate-parentheses',
+              title: 'Generate Parentheses',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 940780649,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'letter-combinations-of-a-phone-number',
+              title: 'Letter Combinations of a Phone Number',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 940762302,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'remove-nth-node-from-end-of-list',
+              title: 'Remove Nth Node From End of List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 940748952,
+            day: 'THURSDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'maximum-product-subarray',
+              title: 'Maximum Product Subarray',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 942113563,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-all-anagrams-in-a-string',
+              title: 'Find All Anagrams in a String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 942106188,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'most-frequent-even-element',
+              title: 'Most Frequent Even Element',
+              difficulty: 'EASY'
+            },
+            submissionId: 942100070,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'longest-repeating-character-replacement',
+              title: 'Longest Repeating Character Replacement',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 942089928,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'make-array-zero-by-subtracting-equal-amounts',
+              title: 'Make Array Zero by Subtracting Equal Amounts',
+              difficulty: 'EASY'
+            },
+            submissionId: 942082077,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'contains-duplicate-ii',
+              title: 'Contains Duplicate II',
+              difficulty: 'EASY'
+            },
+            submissionId: 941732044,
+            day: 'SATURDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64583b4a380dac60cee4afdd"),
+    session: 'main',
+    startOfTheWeek: Long("1682899200"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'largest-number',
+              title: 'Largest Number',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 945938311,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-number-of-vowels-in-a-substring-of-given-length',
+              title: 'Maximum Number of Vowels in a Substring of Given Length',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 944823808,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'dota2-senate',
+              title: 'Dota2 Senate',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 944487217,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-difference-of-two-arrays',
+              title: 'Find the Difference of Two Arrays',
+              difficulty: 'EASY'
+            },
+            submissionId: 943675611,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'sign-of-the-product-of-an-array',
+              title: 'Sign of the Product of an Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 943068805,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'average-salary-excluding-the-minimum-and-maximum-salary',
+              title: 'Average Salary Excluding the Minimum and Maximum Salary',
+              difficulty: 'EASY'
+            },
+            submissionId: 942528401,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'search-in-rotated-sorted-array',
+              title: 'Search in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 946243517,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-longest-valid-obstacle-course-at-each-position',
+              title: 'Find the Longest Valid Obstacle Course at Each Position',
+              difficulty: 'HARD'
+            },
+            submissionId: 946111203,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-number-of-vowels-in-a-substring-of-given-length',
+              title: 'Maximum Number of Vowels in a Substring of Given Length',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 944784702,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'remove-element',
+              title: 'Remove Element',
+              difficulty: 'EASY'
+            },
+            submissionId: 944214197,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'dota2-senate',
+              title: 'Dota2 Senate',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 944203185,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'next-permutation',
+              title: 'Next Permutation',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 943641472,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-difference-of-two-arrays',
+              title: 'Find the Difference of Two Arrays',
+              difficulty: 'EASY'
+            },
+            submissionId: 943607566,
+            day: 'WEDNESDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("646175c9380dac60cee4afde"),
+    session: 'main',
+    startOfTheWeek: Long("1683504000"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'student-attendance-record-i',
+              title: 'Student Attendance Record I',
+              difficulty: 'EASY'
+            },
+            submissionId: 950303089,
+            day: 'SUNDAY'
+          },
+          {
+            task: { slug: 'path-sum', title: 'Path Sum', difficulty: 'EASY' },
+            submissionId: 950300411,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'solving-questions-with-brainpower',
+              title: 'Solving Questions With Brainpower',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 950297427,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'spiral-matrix-ii',
+              title: 'Spiral Matrix II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 947647965,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'spiral-matrix',
+              title: 'Spiral Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 947221338,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'matrix-diagonal-sum',
+              title: 'Matrix Diagonal Sum',
+              difficulty: 'EASY'
+            },
+            submissionId: 946418373,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'climbing-stairs',
+              title: 'Climbing Stairs',
+              difficulty: 'EASY'
+            },
+            submissionId: 950341708,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximize-score-after-n-operations',
+              title: 'Maximize Score After N Operations',
+              difficulty: 'HARD'
+            },
+            submissionId: 950338050,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'count-ways-to-build-good-strings',
+              title: 'Count Ways To Build Good Strings',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 949546040,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'merge-k-sorted-lists',
+              title: 'Merge k Sorted Lists',
+              difficulty: 'HARD'
+            },
+            submissionId: 947473531,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'spiral-matrix',
+              title: 'Spiral Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 947410967,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'matrix-diagonal-sum',
+              title: 'Matrix Diagonal Sum',
+              difficulty: 'EASY'
+            },
+            submissionId: 946830840,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("646ab0499eda9d0eef462c56"),
+    session: 'main',
+    startOfTheWeek: Long("1684108800"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'valid-anagram',
+              title: 'Valid Anagram',
+              difficulty: 'EASY'
+            },
+            submissionId: 954430159,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'fizz-buzz',
+              title: 'Fizz Buzz',
+              difficulty: 'EASY'
+            },
+            submissionId: 954427905,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'sort-colors',
+              title: 'Sort Colors',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 954424729,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-number-of-vertices-to-reach-all-nodes',
+              title: 'Minimum Number of Vertices to Reach All Nodes',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 952538225,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-twin-sum-of-a-linked-list',
+              title: 'Maximum Twin Sum of a Linked List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 952218538,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'swap-nodes-in-pairs',
+              title: 'Swap Nodes in Pairs',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 951257393,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'swapping-nodes-in-a-linked-list',
+              title: 'Swapping Nodes in a Linked List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 950805571,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'add-binary',
+              title: 'Add Binary',
+              difficulty: 'EASY'
+            },
+            submissionId: 954588955,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-number-of-vertices-to-reach-all-nodes',
+              title: 'Minimum Number of Vertices to Reach All Nodes',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 952810535,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-twin-sum-of-a-linked-list',
+              title: 'Maximum Twin Sum of a Linked List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 952059134,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: { slug: 'subsets', title: 'Subsets', difficulty: 'MEDIUM' },
+            submissionId: 951688015,
+            day: 'TUESDAY'
+          },
+          {
+            task: { slug: '4sum', title: '4Sum', difficulty: 'MEDIUM' },
+            submissionId: 951339533,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'swap-nodes-in-pairs',
+              title: 'Swap Nodes in Pairs',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 951318824,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'swapping-nodes-in-a-linked-list',
+              title: 'Swapping Nodes in a Linked List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 950942221,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'find-the-duplicate-number',
+              title: 'Find the Duplicate Number',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 954557030,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'add-two-numbers',
+              title: 'Add Two Numbers',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 954536895,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'linked-list-cycle',
+              title: 'Linked List Cycle',
+              difficulty: 'EASY'
+            },
+            submissionId: 954521157,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'reorder-list',
+              title: 'Reorder List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 953587540,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-twin-sum-of-a-linked-list',
+              title: 'Maximum Twin Sum of a Linked List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 953579719,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'remove-nth-node-from-end-of-list',
+              title: 'Remove Nth Node From End of List',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 953569226,
+            day: 'FRIDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("6473eacb9eda9d0eef462c57"),
+    session: 'main',
+    startOfTheWeek: Long("1684713600"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'unique-paths-ii',
+              title: 'Unique Paths II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958535037,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'unique-paths',
+              title: 'Unique Paths',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958531620,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'function-composition',
+              title: 'Function Composition',
+              difficulty: 'EASY'
+            },
+            submissionId: 958136104,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'array-reduce-transformation',
+              title: 'Array Reduce Transformation',
+              difficulty: 'EASY'
+            },
+            submissionId: 958061925,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'filter-elements-from-array',
+              title: 'Filter Elements from Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 958061469,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'apply-transform-over-each-element-in-array',
+              title: 'Apply Transform Over Each Element in Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 958061107,
+            day: 'SATURDAY'
+          },
+          {
+            task: { slug: 'sleep', title: 'Sleep', difficulty: 'EASY' },
+            submissionId: 957491332,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'counter-ii',
+              title: 'Counter II',
+              difficulty: 'EASY'
+            },
+            submissionId: 957193647,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'range-sum-query-immutable',
+              title: 'Range Sum Query - Immutable',
+              difficulty: 'EASY'
+            },
+            submissionId: 956542836,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'best-time-to-buy-and-sell-stock',
+              title: 'Best Time to Buy and Sell Stock',
+              difficulty: 'EASY'
+            },
+            submissionId: 956540032,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: { slug: 'counter', title: 'Counter', difficulty: 'EASY' },
+            submissionId: 956240662,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'find-all-numbers-disappeared-in-an-array',
+              title: 'Find All Numbers Disappeared in an Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 955606701,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'create-hello-world-function',
+              title: 'Create Hello World Function',
+              difficulty: 'EASY'
+            },
+            submissionId: 955591512,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'kth-largest-element-in-a-stream',
+              title: 'Kth Largest Element in a Stream',
+              difficulty: 'EASY'
+            },
+            submissionId: 955586767,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'missing-number',
+              title: 'Missing Number',
+              difficulty: 'EASY'
+            },
+            submissionId: 955223914,
+            day: 'MONDAY'
+          },
+          {
+            task: {
+              slug: 'contains-duplicate',
+              title: 'Contains Duplicate',
+              difficulty: 'EASY'
+            },
+            submissionId: 955221091,
+            day: 'MONDAY'
+          },
+          {
+            task: {
+              slug: 'top-k-frequent-elements',
+              title: 'Top K Frequent Elements',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 954919751,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'invert-binary-tree',
+              title: 'Invert Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 958614410,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'word-search',
+              title: 'Word Search',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958612409,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'combination-sum-ii',
+              title: 'Combination Sum II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958597338,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'subsets-ii',
+              title: 'Subsets II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958585309,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'permutations',
+              title: 'Permutations',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958574787,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'combination-sum',
+              title: 'Combination Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958568727,
+            day: 'SATURDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'count-good-nodes-in-binary-tree',
+              title: 'Count Good Nodes in Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958589133,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'binary-tree-level-order-traversal',
+              title: 'Binary Tree Level Order Traversal',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958584680,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'lowest-common-ancestor-of-a-binary-search-tree',
+              title: 'Lowest Common Ancestor of a Binary Search Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 958566609,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'diameter-of-binary-tree',
+              title: 'Diameter of Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 958560465,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-depth-of-binary-tree',
+              title: 'Maximum Depth of Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 958553220,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'invert-binary-tree',
+              title: 'Invert Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 958550119,
+            day: 'SATURDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("647d254a9eda9d0eef462c58"),
+    session: 'main',
+    startOfTheWeek: Long("1685318400"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'number-of-provinces',
+              title: 'Number of Provinces',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963740735,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'time-needed-to-inform-all-employees',
+              title: 'Time Needed to Inform All Employees',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963736285,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'shortest-path-in-binary-matrix',
+              title: 'Shortest Path in Binary Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963718908,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'detonate-the-maximum-bombs',
+              title: 'Detonate the Maximum Bombs',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963706658,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'design-hashset',
+              title: 'Design HashSet',
+              difficulty: 'EASY'
+            },
+            submissionId: 960037026,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'design-parking-system',
+              title: 'Design Parking System',
+              difficulty: 'EASY'
+            },
+            submissionId: 959697579,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'palindrome-partitioning',
+              title: 'Palindrome Partitioning',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 962989296,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'house-robber-ii',
+              title: 'House Robber II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 962979919,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'house-robber',
+              title: 'House Robber',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 962966350,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'design-underground-system',
+              title: 'Design Underground System',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 961220093,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'design-parking-system',
+              title: 'Design Parking System',
+              difficulty: 'EASY'
+            },
+            submissionId: 959840023,
+            day: 'MONDAY'
+          },
+          {
+            task: { slug: 'n-queens', title: 'N-Queens', difficulty: 'HARD' },
+            submissionId: 959817522,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'move-zeroes',
+              title: 'Move Zeroes',
+              difficulty: 'EASY'
+            },
+            submissionId: 963882360,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'validate-binary-search-tree',
+              title: 'Validate Binary Search Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963875795,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'lowest-common-ancestor-of-a-binary-tree',
+              title: 'Lowest Common Ancestor of a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963866091,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'kth-smallest-element-in-a-bst',
+              title: 'Kth Smallest Element in a BST',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 963861470,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'intersection-of-two-arrays-ii',
+              title: 'Intersection of Two Arrays II',
+              difficulty: 'EASY'
+            },
+            submissionId: 963856762,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'missing-number',
+              title: 'Missing Number',
+              difficulty: 'EASY'
+            },
+            submissionId: 963852776,
+            day: 'SUNDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64865fcb9eda9d0eef462c59"),
+    session: 'main',
+    startOfTheWeek: Long("1685923200"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'number-of-islands',
+              title: 'Number of Islands',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 968652841,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-product-of-word-lengths',
+              title: 'Maximum Product of Word Lengths',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 968649247,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-smallest-letter-greater-than-target',
+              title: 'Find Smallest Letter Greater Than Target',
+              difficulty: 'EASY'
+            },
+            submissionId: 967320471,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'count-negative-numbers-in-a-sorted-matrix',
+              title: 'Count Negative Numbers in a Sorted Matrix',
+              difficulty: 'EASY'
+            },
+            submissionId: 966580348,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-flips-to-make-a-or-b-equal-to-c',
+              title: 'Minimum Flips to Make a OR b Equal to c',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 965881682,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'can-make-arithmetic-progression-from-sequence',
+              title: 'Can Make Arithmetic Progression From Sequence',
+              difficulty: 'EASY'
+            },
+            submissionId: 964933481,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'check-if-it-is-a-straight-line',
+              title: 'Check If It Is a Straight Line',
+              difficulty: 'EASY'
+            },
+            submissionId: 964597800,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'find-smallest-letter-greater-than-target',
+              title: 'Find Smallest Letter Greater Than Target',
+              difficulty: 'EASY'
+            },
+            submissionId: 967474497,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'coin-change',
+              title: 'Coin Change',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 966161539,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'decode-ways',
+              title: 'Decode Ways',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 966140719,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-flips-to-make-a-or-b-equal-to-c',
+              title: 'Minimum Flips to Make a OR b Equal to c',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 965992483,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'can-make-arithmetic-progression-from-sequence',
+              title: 'Can Make Arithmetic Progression From Sequence',
+              difficulty: 'EASY'
+            },
+            submissionId: 965478849,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'check-if-it-is-a-straight-line',
+              title: 'Check If It Is a Straight Line',
+              difficulty: 'EASY'
+            },
+            submissionId: 964706859,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'find-first-and-last-position-of-element-in-sorted-array',
+              title: 'Find First and Last Position of Element in Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 968946681,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'rotate-image',
+              title: 'Rotate Image',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 968940244,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'jump-game',
+              title: 'Jump Game',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 968935952,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'fizz-buzz',
+              title: 'Fizz Buzz',
+              difficulty: 'EASY'
+            },
+            submissionId: 966009671,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'reverse-string',
+              title: 'Reverse String',
+              difficulty: 'EASY'
+            },
+            submissionId: 965998565,
+            day: 'WEDNESDAY'
+          },
+          {
+            task: {
+              slug: 'first-unique-character-in-a-string',
+              title: 'First Unique Character in a String',
+              difficulty: 'EASY'
+            },
+            submissionId: 965994171,
+            day: 'WEDNESDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("648f9a479eda9d0eef462c5a"),
+    session: 'main',
+    startOfTheWeek: Long("1686528000"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'set-matrix-zeroes',
+              title: 'Set Matrix Zeroes',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973201654,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'counting-bits',
+              title: 'Counting Bits',
+              difficulty: 'EASY'
+            },
+            submissionId: 973198479,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-level-sum-of-a-binary-tree',
+              title: 'Maximum Level Sum of a Binary Tree',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973184541,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'equal-row-and-column-pairs',
+              title: 'Equal Row and Column Pairs',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 972897023,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-absolute-difference-in-bst',
+              title: 'Minimum Absolute Difference in BST',
+              difficulty: 'EASY'
+            },
+            submissionId: 972884616,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'summary-ranges',
+              title: 'Summary Ranges',
+              difficulty: 'EASY'
+            },
+            submissionId: 972833265,
+            day: 'FRIDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'greatest-common-divisor-of-strings',
+              title: 'Greatest Common Divisor of Strings',
+              difficulty: 'EASY'
+            },
+            submissionId: 973989925,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'min-cost-climbing-stairs',
+              title: 'Min Cost Climbing Stairs',
+              difficulty: 'EASY'
+            },
+            submissionId: 973976134,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-product-subarray',
+              title: 'Maximum Product Subarray',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973968413,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'word-break',
+              title: 'Word Break',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973599919,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'longest-increasing-subsequence',
+              title: 'Longest Increasing Subsequence',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973593232,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'partition-equal-subset-sum',
+              title: 'Partition Equal Subset Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973569929,
+            day: 'SATURDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'design-parking-system',
+              title: 'Design Parking System',
+              difficulty: 'EASY'
+            },
+            submissionId: 973571060,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'permutations',
+              title: 'Permutations',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973566439,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'can-make-arithmetic-progression-from-sequence',
+              title: 'Can Make Arithmetic Progression From Sequence',
+              difficulty: 'EASY'
+            },
+            submissionId: 973553421,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'power-of-three',
+              title: 'Power of Three',
+              difficulty: 'EASY'
+            },
+            submissionId: 973549881,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'spiral-matrix',
+              title: 'Spiral Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973378265,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'unique-paths',
+              title: 'Unique Paths',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 973357107,
+            day: 'SATURDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("6498d4c79eda9d0eef462c5b"),
+    session: 'main',
+    startOfTheWeek: Long("1687132800"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: true,
+        username: 'nechn',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'longest-arithmetic-subsequence',
+              title: 'Longest Arithmetic Subsequence',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 979248338,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'house-robber-ii',
+              title: 'House Robber II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 979241297,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'best-time-to-buy-and-sell-stock-with-transaction-fee',
+              title: 'Best Time to Buy and Sell Stock with Transaction Fee',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 979222722,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'palindrome-linked-list',
+              title: 'Palindrome Linked List',
+              difficulty: 'EASY'
+            },
+            submissionId: 979216570,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'middle-of-the-linked-list',
+              title: 'Middle of the Linked List',
+              difficulty: 'EASY'
+            },
+            submissionId: 979213955,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-the-highest-altitude',
+              title: 'Find the Highest Altitude',
+              difficulty: 'EASY'
+            },
+            submissionId: 974459488,
+            day: 'MONDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'longest-common-subsequence',
+              title: 'Longest Common Subsequence',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 979310835,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'reverse-bits',
+              title: 'Reverse Bits',
+              difficulty: 'EASY'
+            },
+            submissionId: 979289037,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'counting-bits',
+              title: 'Counting Bits',
+              difficulty: 'EASY'
+            },
+            submissionId: 979285727,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'sum-of-two-integers',
+              title: 'Sum of Two Integers',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 979278310,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-1-bits',
+              title: 'Number of 1 Bits',
+              difficulty: 'EASY'
+            },
+            submissionId: 978091713,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'unique-paths',
+              title: 'Unique Paths',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 978088663,
+            day: 'FRIDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'find-the-highest-altitude',
+              title: 'Find the Highest Altitude',
+              difficulty: 'EASY'
+            },
+            submissionId: 977422998,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'min-cost-climbing-stairs',
+              title: 'Min Cost Climbing Stairs',
+              difficulty: 'EASY'
+            },
+            submissionId: 975913682,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'climbing-stairs',
+              title: 'Climbing Stairs',
+              difficulty: 'EASY'
+            },
+            submissionId: 975904540,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'house-robber-ii',
+              title: 'House Robber II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 975899645,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'maximum-product-subarray',
+              title: 'Maximum Product Subarray',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 975890448,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'house-robber',
+              title: 'House Robber',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 975065020,
+            day: 'MONDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64a20f479eda9d0eef462c5c"),
+    session: 'main',
+    startOfTheWeek: Long("1687737600"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'DaniilKornilov',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'jump-game-ii',
+              title: 'Jump Game II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 981169154,
+            day: 'TUESDAY'
+          },
+          {
+            task: { slug: 'subsets', title: 'Subsets', difficulty: 'MEDIUM' },
+            submissionId: 981142760,
+            day: 'TUESDAY'
+          },
+          {
+            task: {
+              slug: 'binary-tree-right-side-view',
+              title: 'Binary Tree Right Side View',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 980376587,
+            day: 'MONDAY'
+          },
+          {
+            task: {
+              slug: 'subtree-of-another-tree',
+              title: 'Subtree of Another Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 980372321,
+            day: 'MONDAY'
+          },
+          {
+            task: {
+              slug: 'balanced-binary-tree',
+              title: 'Balanced Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 980363660,
+            day: 'MONDAY'
+          },
+          {
+            task: {
+              slug: 'subarray-sum-equals-k',
+              title: 'Subarray Sum Equals K',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 980349867,
+            day: 'MONDAY'
+          }
+        ]
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64ab49c89eda9d0eef462c5d"),
+    session: 'main',
+    startOfTheWeek: Long("1688342400"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'merge-sorted-array',
+              title: 'Merge Sorted Array',
+              difficulty: 'EASY'
+            },
+            submissionId: 990394434,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'best-time-to-buy-and-sell-stock-with-cooldown',
+              title: 'Best Time to Buy and Sell Stock with Cooldown',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 989601408,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'target-sum',
+              title: 'Target Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 989556280,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'coin-change-ii',
+              title: 'Coin Change II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 988146865,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'longest-subarray-of-1s-after-deleting-one-element',
+              title: "Longest Subarray of 1's After Deleting One Element",
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 988092442,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'minimum-size-subarray-sum',
+              title: 'Minimum Size Subarray Sum',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 988078853,
+            day: 'THURSDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64b4844a9eda9d0eef462c5e"),
+    session: 'main',
+    startOfTheWeek: Long("1688947200"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: true,
+        username: 'nek1tko',
+        solvedTasks: [
+          {
+            task: {
+              slug: 'sliding-window-maximum',
+              title: 'Sliding Window Maximum',
+              difficulty: 'HARD'
+            },
+            submissionId: 996224354,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'generate-parentheses',
+              title: 'Generate Parentheses',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 996202836,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'balanced-binary-tree',
+              title: 'Balanced Binary Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 996180590,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'symmetric-tree',
+              title: 'Symmetric Tree',
+              difficulty: 'EASY'
+            },
+            submissionId: 996175600,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'merge-k-sorted-lists',
+              title: 'Merge k Sorted Lists',
+              difficulty: 'HARD'
+            },
+            submissionId: 996163308,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-in-rotated-sorted-array',
+              title: 'Search in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 996160355,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-in-rotated-sorted-array-ii',
+              title: 'Search in Rotated Sorted Array II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 996154520,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'find-minimum-in-rotated-sorted-array',
+              title: 'Find Minimum in Rotated Sorted Array',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 996135359,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'search-a-2d-matrix',
+              title: 'Search a 2D Matrix',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 996121835,
+            day: 'SUNDAY'
+          },
+          {
+            task: {
+              slug: 'guess-number-higher-or-lower',
+              title: 'Guess Number Higher or Lower',
+              difficulty: 'EASY'
+            },
+            submissionId: 995416786,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'best-time-to-buy-and-sell-stock',
+              title: 'Best Time to Buy and Sell Stock',
+              difficulty: 'EASY'
+            },
+            submissionId: 995410158,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'merge-intervals',
+              title: 'Merge Intervals',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 995407365,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'top-k-frequent-words',
+              title: 'Top K Frequent Words',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 995401424,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'top-k-frequent-elements',
+              title: 'Top K Frequent Elements',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 995389761,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'remove-invalid-parentheses',
+              title: 'Remove Invalid Parentheses',
+              difficulty: 'HARD'
+            },
+            submissionId: 995311453,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'number-of-islands',
+              title: 'Number of Islands',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 995258733,
+            day: 'SATURDAY'
+          },
+          {
+            task: {
+              slug: 'find-all-anagrams-in-a-string',
+              title: 'Find All Anagrams in a String',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 993882800,
+            day: 'FRIDAY'
+          },
+          {
+            task: {
+              slug: 'path-sum-ii',
+              title: 'Path Sum II',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 993871606,
+            day: 'THURSDAY'
+          },
+          {
+            task: {
+              slug: 'group-anagrams',
+              title: 'Group Anagrams',
+              difficulty: 'MEDIUM'
+            },
+            submissionId: 993859041,
+            day: 'THURSDAY'
+          },
+          {
+            task: { slug: 'two-sum', title: 'Two Sum', difficulty: 'EASY' },
+            submissionId: 993843176,
+            day: 'THURSDAY'
+          }
+        ]
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64bdbec89eda9d0eef462c5f"),
+    session: 'main',
+    startOfTheWeek: Long("1689552000"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64c6f9499eda9d0eef462c60"),
+    session: 'main',
+    startOfTheWeek: Long("1690156800"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64d033ca9eda9d0eef462c61"),
+    session: 'main',
+    startOfTheWeek: Long("1690761600"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64d96e499eda9d0eef462c62"),
+    session: 'main',
+    startOfTheWeek: Long("1691366400"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64e2a8c89eda9d0eef462c63"),
+    session: 'main',
+    startOfTheWeek: Long("1691971200"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  },
+  {
+    _id: ObjectId("64ebe34a9eda9d0eef462c64"),
+    session: 'main',
+    startOfTheWeek: Long("1692576000"),
+    challengeStatusList: [
+      {
+        hasTheChallengeDone: false,
+        username: 'nechn',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'nek1tko',
+        solvedTasks: []
+      },
+      {
+        hasTheChallengeDone: false,
+        username: 'DaniilKornilov',
+        solvedTasks: []
+      }
+    ],
+    _class: 'io.nechn.lcct.entity.HistoryEntry'
+  }
+]
